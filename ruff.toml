@@ -1,0 +1,6 @@
+# Lint only for real defects (syntax errors, undefined names, unused imports/variables).
+# The game file uses compact one-line style on purpose, so style rules are not enabled.
+target-version = "py39"
+line-length = 120
+[lint]
+select = ["E9", "F"]

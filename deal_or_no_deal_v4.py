@@ -18,6 +18,8 @@ Keys: U = undo, N = new game, M = mute, F11 = fullscreen, Esc = quit.
 Edit BOARD / ROUNDS / CURRENCY below to change the game.
 """
 
+__version__ = "4.0.0"  # authoritative version: release tags must be v<this>
+
 import array
 import copy
 import json

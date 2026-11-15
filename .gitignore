@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+deal_or_no_deal_scores.json
+dist/
